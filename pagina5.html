@@ -1,50 +1,51 @@
-<html lang="pt-BR" dir="ltr">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Página Livre</title>
+    <title>Minhas Cachorros</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 16px;
-            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.5;
         }
-
-        .caixa {
-            font-size: 18px;
-            color: #0066cc;
-        }
-
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #333;
-        }
-
-        nav a:hover {
-            color: #0077aa;
-        }
-
-        h1 {
-            background-color: #0066cc;
+        nav {
             text-align: center;
+            margin-bottom: 20px;
         }
-
-        .dogs {
-            background-color: #f1f1f1;
+        nav a {
+            margin: 0 10px;
+            color: #0066cc;
+            text-decoration: none;
+        }
+        h1 {
+            color: white;
+            background: #0066cc;
+            text-align: center;
+            padding: 10px;
+        }
+        .dog-card {
+            background: #f5f5f5;
             padding: 15px;
-            margin-top: 20px;
+            margin: 15px 0;
             border-radius: 8px;
         }
-
         .dog-name {
-            font-size: 20px;
+            color: #0066cc;
             font-weight: bold;
-            color: #0077aa;
+            font-size: 18px;
         }
-
-        .dog-description {
-            font-size: 16px;
-            color: #555;
+        .dog-link {
+            display: block;
+            margin-top: 10px;
+            color: #0066cc;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
         }
     </style>
 </head>
@@ -52,20 +53,27 @@
     <nav>
         <a href="pagina1.html">Apresentação</a>
         <a href="pagina2.html">Hobbies</a>
-        <a href="pagina3.html">Filme Favorito</a>
-        <a href="pagina4.html">Lugar para Visitar</a>
-        <a href="pagina5.html">Página Livre</a>
+        <a href="pagina3.html">Filme</a>
+        <a href="pagina4.html">Lugares</a>
+        <a href="pagina5.html">Cachorros</a>
     </nav>
 
-    
-    <div class="dogs">
-        <p class="dog-name">July</p>
-        <p class="dog-description">A July é a minha cachorrinha super animada e carinhosa. Ela adora correr no parque e sempre está pronta para receber carinho. É uma amiga fiel e me faz sorrir todos os dias.</p>
-        <a href="imagens/july.png"> Minha cachorra mais nova</a>
+    <h1>Meus Cachorros</h1>
 
-        <p class="dog-name">Jhogi</p>
-        <p class="dog-description">A Jhogi é a mais tranquila e sapeca. Ela gosta de explorar novos lugares e tem um olhar curioso que é impossível de resistir. Sua calma é complementada por sua energia brincalhona nas horas certas.</p>
-        <a href="imagens/a outra.webp">A cachorra mais velha</a>
+    <div class="dog-card">
+        <p class="dog-name">July</p>
+        <p>A July é a minha cachorrinha super animada e carinhosa. Ela adora correr no parque e sempre está pronta para receber carinho. É uma amiga fiel e me faz sorrir todos os dias.</p>
+        <a href="imagens/july.png" class="dog-link">Minha cachorra mais nova</a>
     </div>
+
+    <div class="dog-card">
+        <p class="dog-name">Jhogi</p>
+        <p>A Jhogi é a mais tranquila e sapeca. Ela gosta de explorar novos lugares e tem um olhar curioso que é impossível de resistir. Sua calma é complementada por sua energia brincalhona nas horas certas.</p>
+        <a href="imagens/a outra.webp" class="dog-link">A cachorra mais velha</a>
+    </div>
+
+    <footer>
+        <p>© Nicolas Finco Pena - nicolaspeninha@gmail.com</p>
+    </footer>
 </body>
 </html>

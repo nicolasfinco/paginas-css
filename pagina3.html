@@ -1,53 +1,81 @@
-<html lang="pt-BR" dir="ltr">
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Filme Favorito</title>
+    <title>Filme Favorito - Kung Fu Panda</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 16px;
-            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
         }
-
-        .caixa {
-            border: 2px solid #ff6600;
-            border-radius: 10px;
+        nav {
+            margin-bottom: 20px;
             text-align: center;
-            padding: 15px;
-            font-size: 18px;
-            color: #444;
         }
-
-        nav a {
-            margin-right: 15px;
-            text-decoration: none;
-            color: #333;
-        }
-
-        nav a:hover {
-            color: #ff6600;
-        }
-
         h1 {
-            background-color: #ff6600;
-            color: white;
+            color: #d35400;
             text-align: center;
-            padding: 10px;
+            border-bottom: 2px solid #d35400;
+            padding-bottom: 10px;
+        }
+        .citacao {
+            background-color: #fef9e7;
+            padding: 15px;
+            border-left: 4px solid #d35400;
+            margin: 20px 0;
+            font-style: italic;
+        }
+        a {
+            color: #d35400;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="pagina1.html">Apresentação</a>
-        <a href="pagina2.html">Hobbies</a>
-        <a href="pagina3.html">Filme Favorito</a>
-        <a href="pagina4.html">Lugar para Visitar</a>
-        <a href="pagina5.html">Página Livre</a>
+        <a href="pagina1.html">Apresentação</a> | 
+        <a href="pagina2.html">Hobbies</a> | 
+        <a href="pagina3.html">Filme</a> | 
+        <a href="pagina4.html">Lugares</a> | 
+        <a href="pagina5.html">Livre</a>
     </nav>
 
-    <h1>Filme Favorito</h1>
-    <p>Um dos meus filmes favoritos é <strong>Interestelar</strong>. Ele mistura ciência, emoção e aventura espacial de uma forma única. Além da história envolvente, a trilha sonora é marcante e inesquecível.</p>
+    <h1>Kung Fu Panda</h1>
+    
+    <p>Meu filme favorito é <strong>Kung Fu Panda</strong>, uma animação da DreamWorks que combina ação, comédia e lições de vida de forma brilhante. A história segue Po, um panda desajeitado que sonha em ser um mestre de kung fu.</p>
 
-    <div class="caixa">"O amor é a única coisa que somos capazes de perceber que transcende o tempo e o espaço."</div>
+    <img src="imagens/maxresdefault.jpg" alt="Po de Kung Fu Panda" title="Po, o Panda Dragão Guerreiro">
+
+    <p>O que mais me encanta neste filme são:</p>
+    <ul>
+        <li>As cenas de ação incríveis</li>
+        <li>O humor inteligente</li>
+        <li>As mensagens inspiradoras sobre autoconfiança</li>
+        <li>A trilha sonora épica</li>
+        <li>O desenvolvimento do personagem principal</li>
+    </ul>
+
+    <div class="citacao">
+        "Ontem é história, amanhã é mistério, mas hoje é uma dádiva. Por isso se chama presente."<br>
+        - Mestre Oogway
+    </div>
+
+    <p>Kung Fu Panda me ensinou que todos temos potencial para ser extraordinários, mesmo quando não acreditamos em nós mesmos. A jornada de Po de cozinheiro desastrado a guerreiro dragão é verdadeiramente inspiradora!</p>
+
+    <footer>
+        <p>© Nicolas Finco Pena - nicolaspeninha@gmail.com</p>
+    </footer>
 </body>
 </html>
